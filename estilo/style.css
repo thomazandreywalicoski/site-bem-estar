@@ -38,9 +38,10 @@ li {
 
 /* MENU */
 
-.menu-bg {
-    /* background-color: #0294f5; */
-    /* background-image: linear-gradient(to botoom, #ffffff, #0294f5); */
+.background-inicio {
+    background-image: url(../imagens/inicio/Simple\ Shiny.svg);
+    background-position: left center;
+    background-size: cover;
 }
 
 .menu {
@@ -109,13 +110,6 @@ li {
 
 /* INÍCIO */
 
-.inicio {
-    /* background-image: url(../imagens/inicio/pattern.svg);
-    background-repeat: repeat;
-    background-position: center center; */
-}
-
-
 .inicio-c {
     max-width: 1440px;
     margin: 0 auto;
@@ -126,12 +120,19 @@ li {
     padding: 20px 20px 0px 20px;
 }
 
+.c-esquerdo-inicio {
+    display: flex;
+    align-items: center;
+}
+
+.inicio-img-mao {
+    width: 200px;
+    margin-right: 10px;
+}
+
 .inicio-text {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-    /* padding: 20px; */
 }
 
 .inicio-title {
@@ -209,6 +210,44 @@ span {
 	width: 100px;
 	margin: 0 auto;
     border-radius: 5px;
+}
+
+/* APLICAÇÕES */
+
+.aplicacoes-produtos {
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 2px solid #0294F5;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.aplicacoes-produtos img {
+    height: 60px;
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.aplicacoes-produtos-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aplicacoes-produtos-img h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.aplicacoes-produtos-linha img {
+    width: 20px;
+    height: 50px;
+    margin: 0px;
 }
 
 /* PRODUTOS */
@@ -454,60 +493,12 @@ span {
     font-weight: 400;
 }
 
-.aplicacoes-produtos {
-    max-width: 1440px;
-    margin: 0 auto;
-    border: 2px solid #0294F5;
-    /* background-color: #0294F5; */
-    /* background-image: linear-gradient(to right, #ffffff, #0294f5); */
-    padding: 20px 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.aplicacoes-produtos img {
-    height: 60px;
-    width: 70px;
-    margin-bottom: 15px;
-}
-
-.aplicacoes-produtos-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.aplicacoes-produtos-img h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-}
-
-.aplicacoes-produtos-linha img {
-    width: 20px;
-    height: 50px;
-    margin: 0px;
-}
 
 
 
-.fundo-tudo {
-    background-image: url(../imagens/inicio/Simple\ Shiny.svg);
-    background-position: left center;
-    background-size: cover;
-}
 
 
-.c-esquerdo-inicio {
-    display: flex;
-    align-items: center;
-}
 
 
-.img-abc {
-    width: 200px;
-    margin-right: 10px;
-}
+
+
