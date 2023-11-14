@@ -45,8 +45,14 @@ li {
 }
 
 .menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-c {
     max-width: 1440px;
-    margin: 0 auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,9 +116,15 @@ li {
 
 /* INÍCIO */
 
+.inicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .inicio-c {
     max-width: 1440px;
-    margin: 0 auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -215,17 +227,23 @@ span {
 /* APLICAÇÕES */
 
 .aplicacoes-produtos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aplicacoes-produtos-c {
     max-width: 1440px;
-    margin: 0 auto;
+    width: 100%;
     border: 2px solid #0294F5;
     padding: 20px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 40px;
+    margin: 40px 20px 0px 20px;
 }
 
-.aplicacoes-produtos img {
+.aplicacoes-produtos-c img {
     height: 60px;
     width: 70px;
     margin-bottom: 15px;
@@ -252,8 +270,14 @@ span {
 
 /* PRODUTOS */
 
-.produtos {
+.produtos-bg {
     background-color: #fff;
+}
+
+.produtos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .produtos-title {
@@ -266,7 +290,7 @@ span {
 
 .produtos-c {
     max-width: 1440px;
-    margin: 0 auto;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -400,12 +424,16 @@ span {
 /* FOOTER */
 
 .footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #2a272d;
 }
 
 .footer-c {
     max-width: 1440px;
-    margin: 0 auto;
+    width: 100%;
     padding: 30px 20px;
     display: flex;
     align-items: center;
