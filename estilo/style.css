@@ -365,7 +365,7 @@ span {
 }
 
 .footer-c {
-    max-width: 1024px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 30px 20px;
     display: flex;
@@ -433,7 +433,7 @@ span {
 }
 
 .footer-copyright-c {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -453,22 +453,6 @@ span {
     padding-left: 10px;
     font-weight: 400;
 }
-
-
-.banner {
-    max-width: 1024px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.banner img {
-    max-width: 1440px;
-    padding: 40px 20px;
-}
-
-
 
 .aplicacoes-produtos {
     max-width: 1440px;
