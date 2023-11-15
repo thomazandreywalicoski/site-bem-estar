@@ -157,19 +157,11 @@ span {
     color: #F9C442;
 }
 
-.inicio-subtitle {
-    color: #b9eafb9e;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 30px;
-}
-
 .inicio-paragrafo {
     color: #fff;
     font-size: 24px;
     margin-bottom: 30px;
     padding-left: 2px;
-    /* text-align: center; */
     font-family: var(--font-1);
 }
 
@@ -215,32 +207,26 @@ span {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.inicio-hr{  
-    border: none;
-	background-color: #0294F5;
-	height: 5px;
-	width: 100px;
-	margin: 0 auto;
-    border-radius: 5px;
-}
-
 /* APLICAÇÕES */
 
 .aplicacoes-produtos {
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #F9C442;
 }
 
 .aplicacoes-produtos-c {
-    max-width: 1440px;
+    max-width: 1400px;
     width: 100%;
-    border: 2px solid #0294F5;
+    border: 1px solid #0294F5;
+    background-color: #fff;
     padding: 20px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 40px 20px 0px 20px;
+    margin: 40px 20px 40px 20px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
 .aplicacoes-produtos-c img {
@@ -257,8 +243,8 @@ span {
 }
 
 .aplicacoes-produtos-img h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
+    font-family: var(--font-1);
+    font-weight: 400;
     font-size: 1rem;
 }
 
@@ -271,21 +257,48 @@ span {
 /* PRODUTOS */
 
 .produtos-bg {
-    background-color: #fff;
+    /* background-color: #ccc; */
+    background-image: url(../imagens/produtos/Rect\ Light.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    
+}
+
+.produtos-title-compras {
+    display: flex;
+    justify-content: center;
+}
+
+.produtos-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1.6px solid #F9C442; */
+    background-color: #027CCE;
+    padding: 5px 30px;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.produtos-title img {
+    width: 60px;
+    margin-right: 20px;
+    filter: invert(100%);
+}
+
+.produtos-title h2 {
+    font-family: var(--font);
+    font-size: 3.5rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
 }
 
 .produtos {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.produtos-title {
-    font-size: 2rem;
-    color: #0294F5;
-    text-align: center;
-    padding: 50px;
-    text-transform: uppercase;
 }
 
 .produtos-c {
