@@ -8,7 +8,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
 :root {
     --font-site: 'Poppins', sans-serif;
     --font: 'Roboto', sans-serif;
@@ -60,8 +59,23 @@ li {
     padding: 5px 20px;
 }
 
+.menu-logo {
+    display: flex;
+    align-items: center;
+}
+
 .menu-logo-img {
-    width: 80px;
+    width: 50px;
+    margin: 5px 5px 0px 0px;
+}
+
+.menu-logo h2 {
+    font-family: var(--font);
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: .5px;
+    cursor: pointer;
 }
 
 .nav {
@@ -280,7 +294,7 @@ span {
 
 .produtos-bg {
     /* background-color: #ccc; */
-    background-image: url(../imagens/produtos/Rect\ Light.svg);
+    /* background-image: url(../imagens/produtos/Rect\ Light.svg); */
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
@@ -476,8 +490,8 @@ span {
 }
 
 .footer-logo img {
-    width: 120px;
-    padding-right: 20px;
+    width: 80px;
+    margin-right: 40px;
 }
 
 .footer-informacoes {
