@@ -8,11 +8,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 :root {
     --font-site: 'Poppins', sans-serif;
     --font: 'Roboto', sans-serif;
     --font-1: 'Asap', sans-serif;
     --font-2: 'Catamaran', sans-serif;
+    --font-3: 'Open Sans', sans-serif;
 }
 
 * {
@@ -427,8 +430,10 @@ span {
 }
 
 .produtos-card {
-    width: 210px;
-    height: 360px;
+    /* width: 210px;
+    height: 360px; */
+    width: 262px;
+    height: 448px;
     border: 1px solid #ccc;
     background-color: #ffffff;
     border-radius: 5px;
@@ -439,54 +444,124 @@ span {
     flex-direction: column;
     text-align: center;
     margin-bottom: 30px;
+    transition: all .2s;
+}
+
+.produtos-card:hover{
+    border: 1px solid #0294F5;
+    cursor: pointer;
+}
+
+.produtos-card-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.produtos-card-topo p {
+    margin: 10px 0px 0px 10px; 
+}
+
+.produtos-card-topo h2{
+    font-size: 10px;
+    padding: 3px 5px;
+    font-weight: 500;
+    margin: 10px 10px 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    font-family: var(--font-3);
+    color: #fff;
+    background-color: #0294F5;
 }
 
 .produtos-card-img {
-    height: 150px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.produtos-estrela {
+    width: 30px;
+    padding: 5px 0px 0px 5px;
+}
+
+.produtos-card-imagens {
+    height: 190px;
+    margin: 15px;
+}
+
+.produtos-img-frete-gratis {
+    width: 25px;
+    padding: 5px 5px 0px 0px;
+}
+
+#p-2 {
+    height: 220px;
 }
 
 .produtos-card-informacao {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 20px;
-    width: 208.4px;
+    padding: 0px 15px;
+    width: 262px;
 }
 
 .produtos-card-quantidade  {
     align-self: start;
-    background-color: #00A000;
-    color: #ffffff;
-    padding: 0px 10px;
+    /* background-color: #00A000; */
+    background-color: #ffb700;
+    color: #000000db;
+    padding: 0px 5px;
     border-radius: 3px;
     font-size: .8rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 600;
     margin-top: 10px;
+    font-family: var(--font-3);
 }
-
 
 .produtos-card-nome {
-    font-size: .9rem;
+    font-size: 14px;
     padding: 10px 0px;
-    font-weight: 500;
+    font-weight: 400;
     align-self: start;
     text-align: left;
+    font-family: var(--font-3);
+    color: #222222;
 }
 
+.produtos-card-preco-antigo {
+    font-size: 13.5px;
+    font-weight: 400;
+    font-family: var(--font-3);
+    color: #222222;  
+}
 
 .produtos-card-preco {
-    font-size: 2.5rem;
+    font-size: 2rem;
     letter-spacing: -1px;
     color: #ff0000;
-    font-weight: 900;
+    font-weight: 800;
+    font-family: var();
 }
 
 .produtos-card-cifrao {
     font-size: 1rem;
     vertical-align: super;
     color: #000000;
+}
+
+.produtos-card-a-vista {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    font-family: var(--font-3);
+    color: #222222;
 }
 
 .produtos-card-btn {
@@ -499,6 +574,7 @@ span {
     font-weight: 500;
     width: 100%;
     transition: all .3s ease-in-out;
+    font-family: var(--font-3);
 }
 
 .produtos-card-btn:hover {
@@ -665,6 +741,10 @@ span {
     padding-left: 10px;
     font-weight: 400;
 }
+
+
+
+
 
 
 
