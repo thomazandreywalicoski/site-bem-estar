@@ -427,6 +427,7 @@ span {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 5px 20px;
+    background-color: #EBEBEB;
 }
 
 .produtos-card {
