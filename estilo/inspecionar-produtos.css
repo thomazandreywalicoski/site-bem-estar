@@ -76,6 +76,10 @@ li {
     cursor: pointer;
 }
 
+span {
+    color: #F9C442;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -124,4 +128,211 @@ li {
 .btn-contato:hover {
     background-color: #F9C442;
     color: #000000;
+}
+
+/* INSPECIONAR PRODUTOS */
+
+.inspecionar-produtos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inspecionar-produtos-c {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    gap: 20px;
+}
+
+.inspecionar-produtos-img {
+    display: flex;
+    justify-content: center;
+}
+
+.inspecionar-produtos-img img {
+    width: 400px;
+}
+
+.inspecionar-produtos-linha  {
+    border: 1px solid #ccc;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.inspecionar-produtos-informacoes {
+
+}
+
+.inspecionar-produtos-descricao h2 {
+    font-family: var(--font-3);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.inspecionar-produtos-descricao p {
+    font-family: var(--font-3);
+}
+
+.inspecionar-produtos-descricao span {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    color: #ff0000;
+    font-weight: 800;
+}
+
+.inspecionar-produtos-descricao h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.inspecionar-produtos-descricao a {
+    background-color: #0294F5;
+    color: #ffffff;
+    padding: 10px 45px;
+    /* border-radius: 10px; */
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    font-family: var(--font-3);
+}
+
+.inspecionar-produtos-dados h2 {
+    font-family: var(--font-3);
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.inspecionar-produtos-dados p {
+    padding: 2px 0px;
+}
+
+.inspecionar-produtos-sobre h2 {
+    font-family: var(--font-3);
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2a272d;
+}
+
+.footer-c {
+    max-width: 1440px;
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 50px;
+    margin-right: 2px;
+}
+
+.footer-logo h2 {
+    font-family: var(--font);
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.footer-informacoes {
+    display: flex;
+    gap: 40px;
+    font-family: var(--font-site);
+}
+
+.footer-info h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.footer-info li {
+    list-style: none;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: #878787;
+    font-size: .8rem;
+}
+
+.footer-redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 24.16px;
+}
+
+.footer-rs {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-rs img {
+    width: 25px;
+    filter: invert(100%);
+}
+
+.footer-contato-btn {
+    background-color: #0294F5;
+    color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footer-copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.footer-copyright-c {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.footer-copyright-c img {
+    width: 15px;
+    height: 15px;
+    filter: invert(100%);
+}
+
+.footer-copyright-c h3 {
+    color: #ffffff;
+    font-size: .8rem;
+    padding-left: 10px;
+    font-weight: 400;
 }
