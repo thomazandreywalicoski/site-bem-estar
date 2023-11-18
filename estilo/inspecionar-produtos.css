@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --font-site: 'Poppins', sans-serif;
+    --font: 'Roboto', sans-serif;
+    --font-1: 'Asap', sans-serif;
+    --font-2: 'Catamaran', sans-serif;
+    --font-3: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-site);
+}
+
+/* ESTILOS GERAIS */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* MENU */
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #0294F5;
+}
+
+.menu-c {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 20px;
+}
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu-logo-img {
+    width: 50px;
+    margin: 5px 5px 0px 0px;
+}
+
+.menu-logo h2 {
+    font-family: var(--font);
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav li a {
+    display: block;
+    transition: all .4s ease;
+    color:#fff ;
+    font-weight: 500;
+}
+
+.nav li a::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: #F9C442;
+    transition: all .4s ease-in-out;
+}
+
+.nav li a:hover::after {
+    width: 100%;
+}
+
+.nav-link {
+    margin: 0px 20px;
+    font-family: var(--font-site);
+}
+
+.btn-contato {
+    border: 1.6px solid #F9C442;
+    color: #fff;
+    margin: 0px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.btn-contato:hover {
+    background-color: #F9C442;
+    color: #000000;
+}
