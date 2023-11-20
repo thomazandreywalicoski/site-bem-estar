@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+
+/* INÍCIO */
+
+    .inicio-img img {
+        width: 320px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1080px) {
+
+/* INÍCIO */
+
+    .inicio-img-mao {
+        width: 160PX;
+    }
+
+    .inicio-title {
+        font-size: 4.5rem;
+    }
+
+    .inicio-paragrafo {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+/* início */
+
+    .inicio-img img {
+        display: none;
+    }
+
+    .inicio-c {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+
+/* MENU */
+
+    .menu-logo-img {
+        width: 40px;
+        margin: 5px 5px 0px 0px;
+    }
+
+    .menu-logo h2 {
+        font-size: 1rem;
+    }
+
+    .nav li a {
+        font-size: .9rem;
+    }
+
+    .btn-contato {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 800px) {
+
+/* MENU */
+
+    .menu-c {
+        justify-content: center;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .menu-logo {
+        display: flex;
+    }
+
+    .btn-contato {
+        display: none;
+    }
+
+/* MENU MOBILE */
+
+    .hamburger-menu {
+        display: block;
+    }
+
+}
