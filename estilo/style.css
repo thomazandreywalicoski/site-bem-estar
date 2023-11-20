@@ -232,6 +232,7 @@ span {
     display: flex;
     justify-content: center;
     background-color: #F5F5F5;
+    /* margin-bottom: 30px; */
 }
 
 .banner-c {
@@ -290,6 +291,163 @@ span {
     border-radius: 50px;
     display: inline;
 }
+
+/* CARROSSEL */
+
+.slides {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 0px 20px;
+}
+
+.slides-c {
+    max-width: 1400px;
+    width: 100%;
+    height: 300px;
+    /* background-color: #fff; */
+    background-image: url(../imagens/wave\ \(1\).svg);
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 15px 0px;
+    opacity: 0;
+    transition: all .10s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0px 0px; 
+}
+
+.seta {
+    border: solid black;
+    border-width: 0px 3px 3px 0px;
+    display: inline-block;
+    padding: 12px;
+}
+
+.seta-anterior {
+    left: 30px;
+    position: absolute;
+    bottom: 40%;
+    transform: translateY(-50%) rotate(135deg);
+}
+
+.carrocel-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.carrocel-card-img img {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.carrocel-card-informacoes-quantidade {
+    display: inline;
+    background-color: #ffb700;
+    color: #000000db;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: .8rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carrocel-card-informacoes-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.carrocel-card-informacoes-preco-antigo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    margin-top: 15px;
+    color: #626262;
+}
+
+.carrocel-card-informacoes-preco-atual {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.carrocel-card-informacoes-preco-atual span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.carrocel-card-informacoes-btn {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0294F5;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.seta-proximo {
+    right: 30px;
+    position: absolute;
+    bottom: 45%;
+    transform: translate(-50%) rotate(-45deg);
+}
+
+[id^= "item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+}
+
+.item-2 {
+    background: url(imagens/download.jfif);
+    background-size: cover;
+}
+
+.item-3 {
+    background: url(imagens/Receita-de-Sobremesa-de-Preguicoso.jpg);
+    background-size: cover;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+}
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+}
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+}
+
+
+
 
 /* APLICAÇÕES */
 
