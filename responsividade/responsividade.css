@@ -37,7 +37,7 @@
     }
 
     .inicio-c {
-        justify-content: center;
+        justify-content: flex-start;
     }
 }
 
@@ -61,6 +61,68 @@
     .btn-contato {
         font-size: .9rem;
     }
+
+/* BANNER */
+
+    .banner-fundo-esquerdo img {
+        width: 300px;
+    }
+
+
+    .banner-frete-gratis h3 {
+        font-size: 1rem;  
+    }
+
+    .banner-frete-gratis h2 {
+        font-size: 2.5rem;
+    }
+
+    .banner-frete-gratis p {
+        padding: 8px 20px;
+        font-size: .9rem;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+
+/* CARROSSEL */
+
+    .carrocel-card-img img {
+        width: 180px;
+        margin-right: 50px;
+    }
+    
+    .carrocel-card-informacoes-quantidade {
+        font-size: .7rem;
+    }
+    
+    .carrocel-card-informacoes-title {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    
+    .carrocel-card-informacoes-preco-antigo {
+        font-size: .8rem;
+    }
+    
+    .carrocel-card-informacoes-preco-atual {
+        margin-bottom: 15px;
+        font-size: .8rem;
+    }
+    
+    .carrocel-card-informacoes-preco-atual span {
+        font-family: var(--font-site);
+        font-size: 2rem;
+        font-weight: bold;
+        color: #ff0000;
+        font-weight: 800;
+    }
+    
+    .carrocel-card-informacoes-btn {
+        font-size: .9rem;
+    }
 }
 
 @media (max-width: 800px) {
@@ -77,10 +139,20 @@
 
     .menu-logo {
         display: flex;
+        position: relative;
+        top: 5px;
+    }
+    
+    .menu-logo-img {
+        width: 35px;
     }
 
     .btn-contato {
-        display: none;
+        /* display: none; */
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        font-size: .9rem;
     }
 
 /* MENU MOBILE */
@@ -88,5 +160,119 @@
     .hamburger-menu {
         display: block;
     }
+
+/* BANNER */
+
+    .banner-fundo-esquerdo img {
+        width: 260px;
+    }
+
+
+    .banner-frete-gratis h3 {
+        font-size: .9rem;  
+    }
+
+    .banner-frete-gratis h2 {
+        font-size: 2.3rem;
+    }
+
+    .banner-frete-gratis p {
+        padding: 6px 20px;
+        font-size: .9rem;
+    }
+
+}
+
+@media (max-width: 730px) {
+
+/* INÍCIO */
+
+    .inicio-img-mao {
+        width: 160PX;
+    }
+
+    .inicio-title {
+        font-size: 4.6rem;
+    }
+
+    .inicio-paragrafo {
+        font-size: 23px;
+    }
+
+    .btn-produtos {
+
+}
+
+}
+
+@media (max-width: 730px) {
+
+/* INÍCIO */
+
+.inicio-img-mao {
+    width: 160PX;
+}
+
+.inicio-title {
+    font-size: 4.6rem;
+}
+
+.inicio-paragrafo {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-produtos p{
+    font-size: .95rem;
+}
+
+/* BANNER */
+
+.banner-fundo-esquerdo img {
+    width: 240px;
+}
+
+.banner-frete-gratis h3 {
+    font-size: .8rem;  
+}
+
+.banner-frete-gratis h2 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.banner-frete-gratis p {
+    padding: 5px 20px;
+    font-size: .85rem;
+}
+
+
+}
+
+
+@media (max-width: 760px) {
+
+/* FOOTER */
+
+    .footer-c {
+        justify-content: center;
+        flex-direction: column;
+        
+        gap: 50px;
+    }
+
+    .footer-informacoes {
+        gap: 80px;
+    }
+
+    .footer-redes-sociais {
+        margin: 0px;
+    }
+
+    .footer-rs {
+        margin-top: 10px;
+    }
+
+    
 
 }

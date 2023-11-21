@@ -414,6 +414,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .slides-item {
@@ -427,6 +428,7 @@ span {
     transition: all .10s ease-in-out;
     border: 1px solid #ccc;
     border-radius: 5px 5px 0px 0px; 
+    display: flex;
 }
 
 .seta {
@@ -448,6 +450,7 @@ span {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 0px 60px;
 }
 
 .carrocel-card-img img {
