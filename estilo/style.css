@@ -689,17 +689,20 @@ span {
 .produtos-c {
     max-width: 1440px;
     width: 100%;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     padding: 5px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(262px, 1fr));
+    gap: 20px;
 }
 
 .produtos-card {
     /* width: 210px;
     height: 360px; */
-    width: 262px;
+    /* width: 262px; */
     height: 458px;
     border: 1px solid #ccc;
     background-color: #ffffff;
@@ -762,10 +765,6 @@ span {
 .produtos-img-frete-gratis {
     width: 25px;
     padding: 5px 5px 0px 0px;
-}
-
-#p-2 {
-    height: 220px;
 }
 
 .produtos-card-informacao {

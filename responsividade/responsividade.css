@@ -366,6 +366,60 @@ br {
 
 
 
+/* PRODUTOS */
+
+.produtos-c {
+    padding: 5px 8px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 8px;
+}
+
+.produtos-card {
+    height: 380px;
+}
+
+.produtos-card-topo h2{
+    font-size: 7px;
+}
+
+.produtos-card-imagens {
+    height: 125px;
+    margin: 15px 15px 2px 15px;
+}
+
+.produtos-card-informacao {
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.produtos-card-quantidade  {
+    font-size: 9.8px;
+}
+
+.produtos-card-nome {
+    font-size: 12px;
+}
+
+.produtos-card-preco-antigo {
+    font-size: 11px;
+}
+
+.produtos-card-preco {
+    font-size: 22px;
+}
+
+.produtos-card-a-vista {
+    font-size: 11px;
+}
+
+.produtos-card-btn {
+    font-size: 12px;
+}
+.produtos-card-btn img {
+    width: 15px;
+    vertical-align: text-bottom;
+}
+
 
 /* PRÓXIMA PÁGINA */
 
