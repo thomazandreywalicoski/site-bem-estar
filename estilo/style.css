@@ -197,14 +197,13 @@ li {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    /* display: block; */
     position: absolute;
     top: 0;
     left: -100%;
     width: 70vw;
     height: 100vh;
     margin: 0;
-    padding: 100px 40px 100px 40px;
+    padding: 100px 20px 100px 20px;
     list-style: none;
     background-color: #F5F5F5;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
@@ -225,47 +224,71 @@ li {
     justify-content: space-between;
 }
 
+.menu-link-menu:hover {
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 5px;
+}
+
 .menu__item {
     display: flex;
     align-items: flex-end;
-    /* padding: 12px 100px; */
     color: #585858;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-3);
     font-size: 25px;
     font-weight: 600;
     text-decoration: none;
-    transition-duration: .25s;
-    font-family: var(--font-3);  
-}
-
-.menu__item:hover {
-    background-color: #0294F5;
-    color: #fff;
-    border-radius: 5px;
+    transition-duration: .25s; 
+    margin: 5px 0px;
 }
 
 .menu-bolsa-de-compras {
     width: 35px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 .menu-seta-para-baixo {
     width: 15px;
     align-self: center;
+    margin-right: 20px;
 }
 
 .menu-simbolo-localizacao {
     width: 35px;
     margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu-simbolo-mais {
+    width: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu-simbolo-presente {
+    width: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu-contato-btn {
+    align-self: center;
 }
 
 .menu-contato-btn a {
     background-color: #0294F5;
-    padding: 10px 30px;
+    padding: 10px 80px;
     border-radius: 50px;
     color: #fff;
-    
+    display: block;
+    text-align: center;
+    margin: 0px 10px;
+    font-family: var(--font-3);
+    font-size: 25px;
+    font-weight: 600;
 }
+
 
 /* INÍCIO */
 
