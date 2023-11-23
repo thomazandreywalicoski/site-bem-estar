@@ -41,6 +41,50 @@
         left: 10px;
     }
 
+    .menu__box {
+        padding: 60px 10px 60px 10px;
+        gap: 30px;
+    }
+    
+    .menu__box ul {
+        gap: 20px;
+    }
+    
+    .menu__item {
+        font-size: 15px;
+    }
+    
+    .menu-bolsa-de-compras {
+        width: 20px;
+    }
+    
+    .menu-seta-para-baixo {
+        width: 10px;
+    }
+    
+    .menu-simbolo-localizacao {
+        width: 20px;
+    }
+    
+    .menu-simbolo-mais {
+        width: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .menu-simbolo-presente {
+        width: 20px;
+    }
+    
+    .menu-contato-btn {
+        align-self: center;
+    }
+    
+    .menu-contato-btn a {
+        padding: 8px 40px;
+        font-size: 15px;
+    }
+
 
     /*----------------------------------------------------------------------------*/
     /*                                  INÍCIO                                    */
@@ -121,7 +165,6 @@
     
     .slides-c {
         height: 180px;
-        background-image: url();
     }
     
     .seta {
@@ -143,20 +186,27 @@
         padding: 0px 30px;
     }
     
+    .carrocel-card-img {
+        display: flex;
+        align-items: flex-end;
+    }
+    
     .carrocel-card-img img {
-        width: 100px;
-        margin-right: 0px;
+        width: 95px;
+        margin-right: 5px;
+        margin-top: 13px;
     }
     
     .carrocel-card-informacoes-quantidade {
-        font-size: 9.8px;
+        font-size: 9px;
         padding: 0px 5px;
         border-radius: 3px;
+        
     }
     
     .carrocel-card-informacoes-title {
-        margin-top: 5px;
-        font-size: 11px;
+        margin-top: 2px;
+        font-size: 10px;
     }
     
     .carrocel-card-informacoes-preco-antigo {
@@ -165,7 +215,7 @@
     }
     
     .carrocel-card-informacoes-preco-atual {
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         font-size: 10px;
     }
     
@@ -175,6 +225,7 @@
     
     .carrocel-card-informacoes-btn {
         font-size: 10px;
+        padding: 5px 50px;
     }
     
     
@@ -241,11 +292,6 @@
     
     .produtos-title-seta img {
         width: 20px;
-    }
-    
-    .produtos-card {
-        /* justify-content: center; */
-    
     }
     
     .produtos-card-topo h2{
@@ -316,19 +362,20 @@
     /*                                  FOOTER                                    */
     /*----------------------------------------------------------------------------*/
     
+    .footer-c {
+        gap: 30px;
+    }
+
+    .footer-logo img {
+        width: 30px;
+    }
     
     .footer-informacoes {
-        flex-direction: column;
         gap: 40px;
-        text-align: center;
     }
     
     .footer-info h2 {
-        font-size: 1.4rem;
-    }
-    
-    .footer-info a {
-        font-size: .9rem;
+        font-size: 18px;
     }
     
     .footer-rs {
@@ -340,6 +387,15 @@
         width: 150px;
         text-align: center;
     }
-    
+
+    .footer-copyright-c img {
+        width: 12px;
+        height: 12px;
     }
+    
+    .footer-copyright-c h3 {
+        font-size: 12px;
+    }
+    
+}
     
