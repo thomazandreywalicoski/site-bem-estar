@@ -190,11 +190,30 @@
         display: flex;
         align-items: flex-end;
     }
-    
-    .carrocel-card-img img {
+
+    .carrocel-card-img .carrossel-img-1 {
         width: 95px;
-        margin-right: 5px;
-        margin-top: 13px;
+        margin: 13px 5px 0px 0px;
+    }
+
+    .carrocel-card-img .carrossel-img-2 {
+        width: 95px;
+        margin: 13px 5px 0px 0px;
+    }
+
+    .carrocel-card-img .carrossel-img-3 {
+        width: 110px;
+        margin: 18px 0px 0px 0px;
+    }
+
+    .carrocel-card-img .carrossel-img-4 {
+        width: 95px;
+        margin: 13px 5px 0px 0px;
+    }
+
+    .carrocel-card-img .carrossel-img-5 {
+        width: 115px;
+        margin: 10px 0px 0px 0px;
     }
     
     .carrocel-card-informacoes-quantidade {
@@ -283,6 +302,7 @@
     
     .produtos-title img {
         width: 45px;
+        margin-right: 8px;
     }
     
     .produtos-title h2 {
@@ -371,21 +391,27 @@
     }
     
     .footer-informacoes {
-        gap: 40px;
+        gap: 30px;
     }
     
     .footer-info h2 {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .footer-info a {
+        font-size: 14px;
     }
     
     .footer-rs {
-        width: 150px;
+        width: 120px;
         margin-bottom: 30px;
     }
     
     .footer-contato-btn {
-        width: 150px;
+        width: 120px;
         text-align: center;
+        font-size: 14px;
+        border-radius: 50px;
     }
 
     .footer-copyright-c img {

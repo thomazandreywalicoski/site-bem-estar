@@ -536,6 +536,14 @@ span {
     font-family: var(--font-3);
     font-weight: 600;
     margin-top: 15px;
+    width: 100%;
+    hyphens: auto;  
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 .carrocel-card-informacoes-preco-antigo {
@@ -694,10 +702,11 @@ span {
 
 .produtos-title-compras {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: 1400px;
+    max-width: 1440px;
     width: 100%;
+    padding: 0px 20px;
 }
 
 .produtos-title-espaco {
