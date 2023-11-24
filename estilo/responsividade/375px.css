@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (min-width: 321px) and (max-width: 376px) {
 
 
     /*----------------------------------------------------------------------------*/
@@ -13,7 +13,7 @@
     
     .menu-logo {
         position: relative;
-        top: 4px;
+        top: 5px;
     }
     
     .menu-logo-img {
@@ -225,7 +225,7 @@
     
     .carrocel-card-informacoes-title {
         margin-top: 2px;
-        font-size: 10px;
+        font-size: 11px;
     }
     
     .carrocel-card-informacoes-preco-antigo {
@@ -291,11 +291,10 @@
     
 
     .produtos-c {
-        padding: 5px 8px;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
         gap: 8px;
     }
-    
+
     .produtos-title {
         margin: 30px 10px;
     }
@@ -311,7 +310,7 @@
     }
     
     .produtos-title-seta img {
-        width: 20px;
+        width: 18px;
     }
     
     .produtos-card-topo h2{
@@ -353,8 +352,8 @@
         font-size: 12px;
     }
     .produtos-card-btn img {
-        width: 15px;
-        vertical-align: text-bottom;
+        width: 14px;
+        vertical-align: text-top;
     }
     
     
@@ -424,4 +423,3 @@
     }
     
 }
-    

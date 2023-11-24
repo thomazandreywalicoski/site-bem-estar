@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (min-width: 377px) and (max-width: 431px) {
 
 
     /*----------------------------------------------------------------------------*/
@@ -13,7 +13,7 @@
     
     .menu-logo {
         position: relative;
-        top: 4px;
+        top: 5px;
     }
     
     .menu-logo-img {
@@ -42,38 +42,38 @@
     }
 
     .menu__box {
-        padding: 60px 10px 60px 10px;
+        padding: 80px 10px 60px 10px;
         gap: 30px;
     }
     
     .menu__box ul {
-        gap: 20px;
+        gap: 25px;
     }
     
     .menu__item {
-        font-size: 15px;
+        font-size: 18px;
     }
     
     .menu-bolsa-de-compras {
-        width: 20px;
+        width: 25px;
     }
     
     .menu-seta-para-baixo {
-        width: 10px;
+        width: 11px;
     }
     
     .menu-simbolo-localizacao {
-        width: 20px;
+        width: 25px;
     }
     
     .menu-simbolo-mais {
-        width: 20px;
+        width: 25px;
         margin-right: 10px;
         margin-left: 10px;
     }
     
     .menu-simbolo-presente {
-        width: 20px;
+        width: 25px;
     }
     
     .menu-contato-btn {
@@ -82,7 +82,7 @@
     
     .menu-contato-btn a {
         padding: 8px 40px;
-        font-size: 15px;
+        font-size: 18px;
     }
 
 
@@ -225,7 +225,7 @@
     
     .carrocel-card-informacoes-title {
         margin-top: 2px;
-        font-size: 10px;
+        font-size: 11px;
     }
     
     .carrocel-card-informacoes-preco-antigo {
@@ -291,11 +291,10 @@
     
 
     .produtos-c {
-        padding: 5px 8px;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
         gap: 8px;
     }
-    
+
     .produtos-title {
         margin: 30px 10px;
     }
@@ -311,7 +310,7 @@
     }
     
     .produtos-title-seta img {
-        width: 20px;
+        width: 18px;
     }
     
     .produtos-card-topo h2{
@@ -353,8 +352,8 @@
         font-size: 12px;
     }
     .produtos-card-btn img {
-        width: 15px;
-        vertical-align: text-bottom;
+        width: 14px;
+        vertical-align: text-top;
     }
     
     
@@ -424,4 +423,3 @@
     }
     
 }
-    
