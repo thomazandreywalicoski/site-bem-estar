@@ -534,7 +534,8 @@ span {
 
 .carrocel-card-informacoes-title {
     font-family: var(--font-3);
-    font-weight: 600;
+    font-weight:500;
+    color: #222222;
     margin-top: 15px;
     width: 100%;
     hyphens: auto;  
