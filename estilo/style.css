@@ -980,23 +980,27 @@ span {
     display: none;
     align-items: center;
     justify-content: center;
-    padding: 0px 20px;
+    padding: 0px 25px;
+    z-index: 999;
 }
 
 .inspecionar {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     background-color: #F5F5F5;
     position: relative;
     max-width: 1000px;
     width: 100%;
-    padding: 5px 20px;
+    padding: 5px 30px 5px 20px;
+    border-radius: 20px;
+    hyphens: auto;  
 }
 
 .inspecionar.active {
-    display: flex;
+    display: inline-flex;
 }
+
 .fechar {
     position: absolute;
     top: -20px;
@@ -1015,6 +1019,10 @@ span {
     width: 400px;
 }
 
+.inspecionar-informacoes {
+    max-width: 486px;
+}
+
 .inspecionar-informacoes-quantidade {
     display: inline;
     background-color: #ffb700;
@@ -1029,6 +1037,9 @@ span {
 
 .inspecionar-informacoes-nome {
     font-family: var(--font-3);
+    font-weight: 500;
+    margin-top: 5px;
+    
 }
 
 .inspecionar-informacoes-preco-antigo {
@@ -1040,7 +1051,7 @@ span {
 }
 
 .inspecionar-informacoes-preco-atual {
-    font-size: 2.2rem;
+    font-size: 40px;
     letter-spacing: -1px;
     color: #ff0000;
     font-weight: 800;
@@ -1064,7 +1075,7 @@ span {
 .inspecionar-informacoes-btn {
     background-color: #0294F5;
     color: #ffffff;
-    padding: 10px 46px;
+    padding: 10px 40px;
     margin-bottom: 50px;
     border-radius: 5px;
     font-size: .9rem;
@@ -1073,6 +1084,13 @@ span {
     width: 100%;
     transition: all .3s ease-in-out;
     font-family: var(--font-3);
+}
+
+.inspecionar-informacoes-btn img {
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: sub;
+    filter: invert(100%);
 }
 
 .inspecionar-detalhes details summary {
