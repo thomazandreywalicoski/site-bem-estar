@@ -1021,6 +1021,8 @@ span {
 
 .inspecionar-informacoes {
     max-width: 486px;
+    border-left: 2px solid #ccc;
+    padding: 40px;
 }
 
 .inspecionar-informacoes-quantidade {
