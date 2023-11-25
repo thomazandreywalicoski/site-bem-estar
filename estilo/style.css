@@ -980,16 +980,22 @@ span {
     display: none;
     align-items: center;
     justify-content: center;
+    padding: 0px 20px;
 }
 
 .inspecionar {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #F5F5F5;
     position: relative;
+    max-width: 1000px;
+    width: 100%;
+    padding: 5px 20px;
 }
 
 .inspecionar.active {
-    display: inline-block;
+    display: flex;
 }
 .fechar {
     position: absolute;
@@ -1009,6 +1015,87 @@ span {
     width: 400px;
 }
 
+.inspecionar-informacoes-quantidade {
+    display: inline;
+    background-color: #ffb700;
+    color: #000000db;
+    padding: 0px 5px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px 0px;
+    font-family: var(--font-3);
+}
+
+.inspecionar-informacoes-nome {
+    font-family: var(--font-3);
+}
+
+.inspecionar-informacoes-preco-antigo {
+    font-size: 13.5px;
+    font-weight: 400;
+    font-family: var(--font-3);
+    color: #222222;
+    margin-top: 10px;
+}
+
+.inspecionar-informacoes-preco-atual {
+    font-size: 2.2rem;
+    letter-spacing: -1px;
+    color: #ff0000;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.inspecionar-informacoes-preco-atual-a-vista {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    font-family: var(--font-3);
+    color: #222222;
+}
+
+.inspecionar-detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.inspecionar-informacoes-btn {
+    background-color: #0294F5;
+    color: #ffffff;
+    padding: 10px 46px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 100%;
+    transition: all .3s ease-in-out;
+    font-family: var(--font-3);
+}
+
+.inspecionar-detalhes details summary {
+    font-family: var(--font-3);
+    background-color: rgba(197, 197, 197, 0.514);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.inspecionar-informacoes-sobre-o-produto {
+    margin-top: 40px;
+}
+
+.inspecionar-detalhes-informacao {
+    color: #000000;
+    font-weight: 600;
+}
+
+.inspecionar-detalhes details summary p {
+    font-family: var(--font-3);
+    color: #585858;
+
+}
 
 
 
