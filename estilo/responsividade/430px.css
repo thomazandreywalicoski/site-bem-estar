@@ -457,10 +457,11 @@
     position: relative;
     max-width: 1000px;
     width: 100%;
-    padding: 5px 30px 5px 20px;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 5px;
     hyphens: auto; 
     font-size: 12px; 
+    position: relative;
 }
 
 .inspecionar.active {
@@ -485,24 +486,44 @@
 
 .inspecionar-img img {
     width: 150px;
+    margin-top: 40px;
 }
 
 .inspecionar-informacoes {
     border-left: none;
     padding: 0px;
     width: 100%;
+    text-align: center;
 }
 
 .inspecionar-informacoes-quantidade {
     display: inline;
     background-color: #ffb700;
     color: #000000db;
-    padding: 0px 5px;
+    padding: 4px 15px;
     border-radius: 3px;
     font-size: 12px;
     font-weight: 600;
     margin: 10px 0px;
     font-family: var(--font-3);
+    position: absolute;
+    top: 0px;
+    left: 130px;
+}
+
+.inspecionar-informacoes-categoria {
+    display: inline;
+    background-color: #0294F5;
+    color: #fff;
+    padding: 4px 15px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px 10px 10px 0px;
+    font-family: var(--font-3);
+    position: absolute;
+    top: 0px;
+    left: 10px;
 }
 
 .inspecionar-informacoes-nome {
@@ -510,6 +531,7 @@
     font-weight: 500;
     margin-top: 5px;
     font-size: 18px;
+    text-align: start;
     
 }
 
@@ -519,6 +541,7 @@
     font-family: var(--font-3);
     color: #222222;
     margin-top: 10px;
+    text-align: start;
 }
 
 .inspecionar-informacoes-preco-atual {
@@ -526,7 +549,8 @@
     letter-spacing: -1px;
     color: #ff0000;
     font-weight: 800;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: start;
 }
 
 .inspecionar-informacoes-preco-atual-a-vista {
@@ -555,6 +579,7 @@
     width: 100%;
     transition: all .3s ease-in-out;
     font-family: var(--font-3);
+    
 }
 
 .inspecionar-informacoes-btn img {
