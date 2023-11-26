@@ -988,13 +988,14 @@ span {
     display: none;
     align-items: center;
     justify-content: center;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     position: relative;
     max-width: 1000px;
     width: 100%;
     padding: 5px 30px 5px 20px;
     border-radius: 20px;
-    hyphens: auto;  
+    hyphens: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .inspecionar.active {
@@ -1028,24 +1029,36 @@ span {
 .inspecionar-informacoes-quantidade {
     display: inline;
     background-color: #ffb700;
-    color: #000000db;
-    padding: 0px 5px;
+    color: #000000;
+    padding: 5px 15px;
     border-radius: 3px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
-    margin: 10px 0px;
+    margin: 10px 10px 10px 0px;
+    font-family: var(--font-3);
+}
+
+.inspecionar-informacoes-categoria {
+    display: inline;
+    background-color: #0294F5;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 10px 10px 0px;
     font-family: var(--font-3);
 }
 
 .inspecionar-informacoes-nome {
     font-family: var(--font-3);
     font-weight: 500;
-    margin-top: 5px;
+    margin-top: 15px;
     
 }
 
 .inspecionar-informacoes-preco-antigo {
-    font-size: 13.5px;
+    font-size: 14px;
     font-weight: 400;
     font-family: var(--font-3);
     color: #222222;
@@ -1097,24 +1110,37 @@ span {
 
 .inspecionar-detalhes details summary {
     font-family: var(--font-3);
-    background-color: rgba(197, 197, 197, 0.514);
+    /* background-color: rgba(197, 197, 197, 0.514); */
     padding: 5px 10px;
     margin-bottom: 10px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 5px;
 }
 
 .inspecionar-informacoes-sobre-o-produto {
     margin-top: 40px;
 }
 
-.inspecionar-detalhes-informacao {
-    color: #000000;
-    font-weight: 600;
+.inspecionar-informacoes-sobre-o-produto-title {
+    letter-spacing: .6px;
 }
 
-.inspecionar-detalhes details summary p {
+.inspecionar-detalhes-informacao {
+    color: #212121;
+    font-weight: 700;
+}
+
+.inspecionar-detalhes details ul li {
     font-family: var(--font-3);
     color: #585858;
+    font-size: 15px;
+    line-height: 25px;
+}
 
+.inspecionar-detalhes details p {
+    font-size: 15px;
+    text-align: justify;
 }
 
 
