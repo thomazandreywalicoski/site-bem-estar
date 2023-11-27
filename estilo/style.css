@@ -323,10 +323,33 @@ li {
     flex-direction: column;
 }
 
-.inicio-title {
+/* .inicio-title {
     font-family: var(--font);
     font-size: 5.5rem;
     color: #ffffff;
+} */
+
+.inicio-title {
+    font-family: var(--font);
+    font-size: 5.5rem;
+    color: #fff;
+    border-right: 4px solid #fff;
+    width: 8.5ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: digitando 5s infinite;
+}
+
+@keyframes digitando {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes piscando {
+    50% {
+        border-color: transparent;
+    }
 }
 
 span {
