@@ -336,6 +336,7 @@ li {
 
 .inicio-title {
     font-family: var(--font);
+    border: none;
     font-size: 5.5rem;
     color: #fff;
     width: 8.5ch;
