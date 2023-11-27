@@ -329,26 +329,28 @@ li {
     color: #ffffff;
 } */
 
+.inicio-title-animado {
+    display: flex;
+    align-items: center;
+}
+
 .inicio-title {
     font-family: var(--font);
     font-size: 5.5rem;
     color: #fff;
-    border-right: 4px solid #fff;
     width: 8.5ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: digitando 5s infinite;
+    animation: digitando 6s linear infinite; 
 }
 
 @keyframes digitando {
-    from {
+    0%, 10%, 100% {
         width: 0;
     }
-}
 
-@keyframes piscando {
-    50% {
-        border-color: transparent;
+    70%, 90% {
+        width: 100%;
     }
 }
 
