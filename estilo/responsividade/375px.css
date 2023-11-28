@@ -316,10 +316,14 @@
     .produtos-card-topo h2{
         font-size: 7px;
     }
+
+    .produtos-card-img {
+        margin: 0px;
+    }
     
     .produtos-card-imagens {
         height: 125px;
-        margin: 15px 15px 2px 15px;
+        margin: 10px 15px 15px 15px;
     }
     
     .produtos-card-informacao {
@@ -329,6 +333,8 @@
     
     .produtos-card-quantidade  {
         font-size: 9.8px;
+        margin-top: 0px;
+        margin-bottom: 8px;
     }
     
     .produtos-card-nome {
@@ -375,6 +381,112 @@
     .produtos-proxima-pagina img {
         width: 15px;
     }
+
+
+/*------------------------------------------------------------------------------*/
+/*----------------------------INSPECIONAR PRODUTOS----------------------------- */
+/*------------------------------------------------------------------------------*/
+
+
+.inspecionar-produtos {
+    padding: 10px 10px;
+}
+    
+.inspecionar.active {
+    flex-direction: column;
+}
+
+.fechar {
+    top: 5px;
+    right: 5px;
+}
+
+.fechar img {
+    width: 30px;
+}
+
+.inspecionar-img img {
+    width: 150px;
+    margin: 0px;
+}
+
+.inspecionar-informacoes-c {
+    gap: 0px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.inspecionar-informacoes {
+    margin-top: 5px;
+}
+
+.inspecionar-informacoes-categoria {
+    padding: 2px 8px;
+    font-size: 9px;
+    margin-right: 10px;
+}
+
+.inspecionar-informacoes-quantidade {
+    padding: 2px 8px;
+    font-size: 9px;
+}
+
+.inspecionar-dados-nome {
+    margin: 5px 0px;
+    font-size: 15px;
+}
+
+.inspecionar-dados-preco-antigo {
+    font-size: 12px;
+}
+
+.inspecionar-dados-preco-atual {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.inspecionar-dados-preco-atual-a-vista {
+    font-size: 12px;
+    letter-spacing: .4px;
+}
+
+.inspecionar-ganhos {
+    padding: 0px 15px;
+}
+
+.inspecionar-ganhos h3 {
+    font-size: 12px;
+}
+
+.inspecionar-ganhos h3 img {
+    width: 5px;
+}
+
+.inspecionar-ganhos-recompencas {
+    font-size: 9px;
+}
+
+.inspecionar-informacoes-botao {
+    margin: 15px 0px; 
+}
+
+.inspecionar-informacoes-btn {
+    font-size: 10px;
+}
+
+.inspecionar-informacoes-botao img {
+    width: 12px;
+}
+
+.inspecionar-detalhes details summary {
+    padding: 5px 15px;
+    font-size: 10px;
+}
+
+.inspecionar-detalhes details p {
+    font-size: 10px;
+}
+
 
 
     /*----------------------------------------------------------------------------*/
