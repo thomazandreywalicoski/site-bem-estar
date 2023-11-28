@@ -445,7 +445,7 @@
     margin: 0px;
     max-width: 537px;
     width: 100%;
-    padding: 8px;
+    padding: 10px;
 }
 
 .inspecionar-informacoes {
@@ -496,10 +496,11 @@
     font-size: 12px;
     font-weight: 400;
     font-family: var(--font-3);
+    letter-spacing: .4px;
 }
 
 .inspecionar-ganhos {
-    padding: 0px 20px;
+    padding: 0px 15px;
     border-left: 3px solid #0294F5;
 }
 
@@ -550,7 +551,7 @@
 .inspecionar-detalhes details summary {
     list-style: none;
     border-left: 3px solid #0294F5;
-    padding: 5px 20px;
+    padding: 5px 15px;
     position: relative;
     background-color: #e1e1e1;
     border-radius: 2px;
