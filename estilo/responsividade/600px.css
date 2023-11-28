@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 376px) {
+@media (min-width: 481px) and (max-width: 601px) {
 
 
     /*----------------------------------------------------------------------------*/
@@ -10,11 +10,11 @@
         justify-content: flex-end;
         padding: 0px 8px;
     }
-    
+
     .nav {
         display: none;
     }
-
+    
     .menu-logo {
         position: relative;
         top: 5px;
@@ -50,38 +50,38 @@
     }
 
     .menu__box {
-        padding: 70px 10px 80px 10px;
+        padding: 80px 10px 80px 10px;
         gap: 30px;
     }
     
     .menu__box ul {
-        gap: 20px;
+        gap: 25px;
     }
     
     .menu__item {
-        font-size: 15px;
+        font-size: 18px;
     }
     
     .menu-bolsa-de-compras {
-        width: 20px;
+        width: 25px;
     }
     
     .menu-seta-para-baixo {
-        width: 10px;
+        width: 11px;
     }
     
     .menu-simbolo-localizacao {
-        width: 20px;
+        width: 25px;
     }
     
     .menu-simbolo-mais {
-        width: 20px;
+        width: 25px;
         margin-right: 10px;
         margin-left: 10px;
     }
     
     .menu-simbolo-presente {
-        width: 20px;
+        width: 25px;
     }
     
     .menu-contato-btn {
@@ -90,7 +90,7 @@
     
     .menu-contato-btn a {
         padding: 8px 40px;
-        font-size: 15px;
+        font-size: 18px;
     }
 
 
@@ -104,15 +104,15 @@
     }
     
     .inicio-img-mao {
-        width: 90px;
+        width: 120px;
     }
     
     .inicio-title {
-        font-size: 2.2rem;
+        font-size: 3.5rem;
     }
     
     .inicio-paragrafo {
-        font-size: 12px;
+        font-size: 17px;
     }
     
     br {
@@ -148,11 +148,11 @@
     }
     
     .banner-frete-gratis h3 {
-        font-size: 7px;  
+        font-size: 8px;  
     }
     
     .banner-frete-gratis h2 {
-        font-size: 18px;
+        font-size: 19px;
         padding-bottom: 8px;
     }
     
@@ -300,7 +300,7 @@
 
     .produtos-c {
         padding: 5px 8px;
-        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 8px;
     }
 
@@ -327,7 +327,7 @@
     }
 
     .produtos-card-img {
-        margin: 0px;
+        margin: 5px;
     }
     
     .produtos-card-imagens {
@@ -415,8 +415,8 @@
 }
 
 .inspecionar-img img {
-    width: 150px;
-    margin: 0px;
+    width: 180px;
+    margin: 0px 0px 5px 0px;
 }
 
 .inspecionar-informacoes-c {
@@ -431,18 +431,18 @@
 
 .inspecionar-informacoes-categoria {
     padding: 2px 8px;
-    font-size: 9px;
+    font-size: 10px;
     margin-right: 10px;
 }
 
 .inspecionar-informacoes-quantidade {
     padding: 2px 8px;
-    font-size: 9px;
+    font-size: 10px;
 }
 
 .inspecionar-dados-nome {
     margin: 5px 0px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .inspecionar-dados-preco-antigo {
@@ -450,7 +450,7 @@
 }
 
 .inspecionar-dados-preco-atual {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 0px;
 }
 
@@ -464,15 +464,15 @@
 }
 
 .inspecionar-ganhos h3 {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .inspecionar-ganhos h3 img {
-    width: 5px;
+    width: 6px;
 }
 
 .inspecionar-ganhos-recompencas {
-    font-size: 9px;
+    font-size: 10px;
 }
 
 .inspecionar-informacoes-botao {
@@ -480,22 +480,21 @@
 }
 
 .inspecionar-informacoes-btn {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .inspecionar-informacoes-botao img {
-    width: 12px;
+    width: 14px;
 }
 
 .inspecionar-detalhes details summary {
     padding: 5px 15px;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 .inspecionar-detalhes details p {
-    font-size: 10px;
+    font-size: 11px;
 }
-
 
 
     /*----------------------------------------------------------------------------*/
@@ -512,8 +511,7 @@
     }
     
     .footer-informacoes {
-        gap: 30px;
-        flex-direction: column;
+        gap: 60px;
         text-align: center;
     }
     
@@ -549,5 +547,5 @@
     .footer-copyright-c h3 {
         font-size: 12px;
     }
-    
-}
+
+}    

@@ -1,4 +1,4 @@
-@media (min-width: 377px) and (max-width: 431px) {
+@media (min-width: 376px) and (max-width: 431px) {
 
 
     /*----------------------------------------------------------------------------*/
@@ -9,6 +9,10 @@
     .menu-c {
         justify-content: flex-end;
         padding: 0px 8px;
+    }
+
+    .nav {
+        display: none;
     }
     
     .menu-logo {
@@ -35,7 +39,10 @@
     /*                                 MENU MOBILE                                */
     /*----------------------------------------------------------------------------*/
 
-    
+    .hamburger-menu {
+        display: block;
+    }
+
     .menu__btn {
         top: 20px;
         left: 10px;
@@ -291,6 +298,7 @@
     
 
     .produtos-c {
+        padding: 5px 8px;
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
         gap: 8px;
     }
@@ -494,6 +502,7 @@
     
     .footer-c {
         gap: 30px;
+        flex-direction: column;
     }
 
     .footer-logo img {
@@ -502,6 +511,8 @@
     
     .footer-informacoes {
         gap: 30px;
+        flex-direction: column;
+        text-align: center;
     }
     
     .footer-info h2 {
@@ -510,6 +521,10 @@
 
     .footer-info a {
         font-size: 14px;
+    }
+
+    .footer-redes-sociais {
+        margin: 0px;
     }
     
     .footer-rs {
