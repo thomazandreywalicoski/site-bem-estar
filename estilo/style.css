@@ -471,6 +471,143 @@ span {
     display: inline;
 }
 
+/*------------------------------------------------------------------------------*/
+/*---------------------------------CARROSSEL 3D-------------------------------- */
+/*------------------------------------------------------------------------------*/
+
+
+.carrossel-ofertas {
+    width: 100%;
+    max-height: 400px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #F5F5F5;
+}
+
+.carrossel-ofertas-c {
+    max-width: 1440px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.oferta {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0px 50px;
+    opacity: 0;
+    transition: all .10s ease-in-out;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    perspective: 1100px;
+}
+
+.oferta .img-meio {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 20px 30px -10px;   
+}
+
+.oferta .img-direita-1 {
+    width: 230px;
+    height: 230px;
+    transform-style: preserve-3d;
+    transform: rotateY(40deg) translateY(0px);
+    position: relative;
+    right: 16px;
+    box-shadow: -20px 20px 30px -10px;   
+}
+
+.oferta .img-direita-2 {
+    width: 180px;
+    height: 180px;
+    transform-style: preserve-3d;
+    transform: rotateY(40deg) translateY(0px);
+    position: relative;
+    right: 80px;
+    box-shadow: -20px 20px 30px -10px;  
+    
+}
+
+.oferta .img-esquerda-1 {
+    width: 230px;
+    height: 230px;
+    transform-style: preserve-3d;
+    transform: rotateY(-40deg) translateY(0px);
+    position: relative;
+    left: 15px;
+    box-shadow: 20px 20px 30px -10px;
+}
+
+.oferta .img-esquerda-2 {
+    width: 180px;
+    height: 180px;
+    transform-style: preserve-3d;
+    transform: rotateY(-40deg) translateY(0px);
+    position: relative;
+    left: 80px;
+    box-shadow: 20px 20px 30px -10px;
+}
+
+.seta {
+    border: solid black;
+    border-width: 0px 3px 3px 0px;
+    display: inline-block;
+    padding: 12px;
+}
+
+.seta-anterior {
+    left: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+    
+}
+
+.seta-proximo {
+    right: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%) rotate(-45deg);
+}
+
+[id^= "oferta"] {
+    display: none;
+}
+
+.oferta-1 {
+    z-index: 2;
+    opacity: 1;
+    display: flex;
+}
+
+*:target ~ .oferta-1 {
+    opacity: 0;
+}
+
+#oferta-1:target ~ .oferta-1 {
+    opacity: 1;
+}
+
+#oferta-2:target ~ .oferta-2,
+#oferta-3:target ~ .oferta-3,
+#oferta-4:target ~ .oferta-4,
+#oferta-5:target ~ .oferta-5 {
+    z-index: 3;
+    opacity: 1;
+}
+
 
 /*------------------------------------------------------------------------------*/
 /*------------------------------------CARROSSEL-------------------------------- */
@@ -484,6 +621,7 @@ span {
     align-items: center;
     background-color: #F5F5F5;
     padding: 0px 20px;
+    display: none;
 }
 
 .slides-c {
