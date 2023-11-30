@@ -478,22 +478,26 @@ span {
 
 .carrossel-ofertas {
     width: 100%;
-    max-height: 400px;
-    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    flex-direction: column;
     background-color: #F5F5F5;
+    padding: 0px 20px;
 }
 
+
+
 .carrossel-ofertas-c {
-    max-width: 1440px;
+    max-width: 1400px;
     width: 100%;
+    max-height: 400px;
+    height: 1000px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
     
 }
 
@@ -516,7 +520,8 @@ span {
 .oferta .img-meio {
     width: 300px;
     height: 300px;
-    box-shadow: 0px 20px 30px -10px;   
+    box-shadow: 0px 20px 30px -10px;
+    cursor: pointer; 
 }
 
 .oferta .img-direita-1 {
@@ -536,7 +541,7 @@ span {
     transform: rotateY(40deg) translateY(0px);
     position: relative;
     right: 80px;
-    box-shadow: -20px 20px 30px -10px;  
+    box-shadow: -20px 20px 30px -10px;
     
 }
 
@@ -560,26 +565,21 @@ span {
     box-shadow: 20px 20px 30px -10px;
 }
 
-.seta {
-    border: solid black;
-    border-width: 0px 3px 3px 0px;
-    display: inline-block;
-    padding: 12px;
+.seta-voltar img{
+    width: 40px;
+    left: 5px;
+    position: absolute;
+    top: 47%;
+    transform: rotate(180deg);
+    z-index: 10;
 }
 
-.seta-anterior {
-    left: 30px;
+.seta-avancar img {
+    width: 40px;
+    right: 5px;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%) rotate(135deg);
-    
-}
-
-.seta-proximo {
-    right: 30px;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%) rotate(-45deg);
+    top: 47%;
+    z-index: 10;
 }
 
 [id^= "oferta"] {
@@ -793,7 +793,7 @@ span {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 20px 50px 20px;
     background-color: #F5F5F5;
 }
 
