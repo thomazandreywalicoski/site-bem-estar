@@ -486,8 +486,6 @@ span {
     padding: 0px 20px;
 }
 
-
-
 .carrossel-ofertas-c {
     max-width: 1400px;
     width: 100%;
@@ -498,8 +496,8 @@ span {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: #cccccc73;
-    
+    background-color: #fff;
+    overflow: hidden;
 }
 
 .oferta {
@@ -515,7 +513,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center; 
-    perspective: 1100px;
+    perspective: 2000px;
 }
 
 .oferta .img-meio {
@@ -526,8 +524,8 @@ span {
 }
 
 .oferta .img-direita-1 {
-    width: 230px;
-    height: 230px;
+    width: 270px;
+    height: 270px;
     transform-style: preserve-3d;
     transform: rotateY(40deg) translateY(0px);
     position: relative;
@@ -536,19 +534,28 @@ span {
 }
 
 .oferta .img-direita-2 {
-    width: 180px;
-    height: 180px;
+    width: 230px;
+    height: 230px;
     transform-style: preserve-3d;
     transform: rotateY(40deg) translateY(0px);
     position: relative;
     right: 80px;
     box-shadow: -20px 20px 30px -10px;
-    
+}
+
+.img-direita-3 {
+    width: 190px;
+    height: 190px;
+    transform-style: preserve-3d;
+    transform: rotateY(40deg) translateY(0px);
+    position: relative;
+    right: 145px;
+    box-shadow: -20px 20px 30px -10px;
 }
 
 .oferta .img-esquerda-1 {
-    width: 230px;
-    height: 230px;
+    width: 270px;
+    height: 270px;
     transform-style: preserve-3d;
     transform: rotateY(-40deg) translateY(0px);
     position: relative;
@@ -557,8 +564,8 @@ span {
 }
 
 .oferta .img-esquerda-2 {
-    width: 180px;
-    height: 180px;
+    width: 230px;
+    height: 230px;
     transform-style: preserve-3d;
     transform: rotateY(-40deg) translateY(0px);
     position: relative;
@@ -566,21 +573,57 @@ span {
     box-shadow: 20px 20px 30px -10px;
 }
 
-.seta-voltar img{
-    width: 40px;
-    left: 5px;
+.img-esquerda-3 {
+    width: 190px;
+    height: 190px;
+    transform-style: preserve-3d;
+    transform: rotateY(-40deg) translateY(0px);
+    position: relative;
+    left: 145px;
+    box-shadow: 20px 20px 30px -10px;
+}
+
+.seta-voltar {
+    background-color: #000000;
+    width: 30px;
+    height: 60px;
+    border-radius: 0px 50px 50px 0px;
+    left: 0px;
     position: absolute;
     top: 47%;
+    z-index: 9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.seta-voltar img{
+    width: 20px;
+    left: 1px;
+    position: relative;
+    top: 35%;
     transform: rotate(180deg);
     z-index: 10;
+    filter: invert(100%);
+}
+
+.seta-avancar {
+    background-color: #000000;
+    width: 30px;
+    height: 60px;
+    border-radius: 50px 0px 0px 50px;
+    right: 0px;
+    position: absolute;
+    top: 47%;
+    z-index: 9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .seta-avancar img {
-    width: 40px;
-    right: 5px;
-    position: absolute;
-    top: 47%;
+    width: 20px;
+    right: -10px;
+    position: relative;
+    top: 35%;
     z-index: 10;
+    filter: invert(100%);
 }
 
 [id^= "oferta"] {
