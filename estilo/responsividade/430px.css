@@ -291,6 +291,189 @@
         height: 30px;
     }
 
+    /*------------------------------------------------------------------------------*/
+/*---------------------------------CARROSSEL 3D-------------------------------- */
+/*------------------------------------------------------------------------------*/
+
+
+.carrossel-ofertas {
+    width: 100%;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    padding: 0px 8px;
+}
+
+.carrossel-ofertas-c {
+    max-width: 1400px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+.oferta {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0px 50px;
+    opacity: 0;
+    transition: all .10s ease-in-out;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    perspective: 1100px;
+    
+}
+
+.oferta .img-meio {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 10px 30px -10px black;
+    cursor: pointer;
+    position: relative;
+}
+
+.oferta .img-direita-1 {
+    width: 170px;
+    height: 170px;
+    transform-style: preserve-3d;
+    transform: rotateY(40deg) translateY(0px);
+    position: relative;
+    right: 11px;
+    box-shadow: -10px 10px 30px -10px #000000; 
+}
+
+.oferta .img-direita-2 {
+    width: 130px;
+    height: 130px;
+    transform-style: preserve-3d;
+    transform: rotateY(40deg) translateY(0px);
+    position: relative;
+    right: 80px;
+    box-shadow: -20px 20px 30px -10px;
+}
+
+.oferta .img-direita-3 {
+    width: 90px;
+    height: 90px;
+    transform-style: preserve-3d;
+    transform: rotateY(40deg) translateY(0px);
+    position: relative;
+    right: 145px;
+    box-shadow: -20px 20px 30px -10px;
+}
+
+.oferta .img-esquerda-1 {
+    width: 170px;
+    height: 170px;
+    transform-style: preserve-3d;
+    transform: rotateY(-40deg) translateY(0px);
+    position: relative;
+    left: 10px;
+    box-shadow: 10px 10px 30px -10px;
+}
+
+.oferta .img-esquerda-2 {
+    width: 130px;
+    height: 130px;
+    transform-style: preserve-3d;
+    transform: rotateY(-40deg) translateY(0px);
+    position: relative;
+    left: 80px;
+    box-shadow: 20px 20px 30px -10px;
+}
+
+.oferta .img-esquerda-3 {
+    width: 90px;
+    height: 90px;
+    transform-style: preserve-3d;
+    transform: rotateY(-40deg) translateY(0px);
+    position: relative;
+    left: 145px;
+    box-shadow: 20px 20px 30px -10px;
+}
+
+.seta-voltar {
+    background-color: #000000;
+    width: 25px;
+    height: 50px;
+    border-radius: 0px 50px 50px 0px;
+    left: 0px;
+    position: absolute;
+    top: 44%;
+    z-index: 9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.seta-voltar img{
+    width: 20px;
+    left: 0px;
+    position: relative;
+    top: 32%;
+    transform: rotate(180deg);
+    z-index: 10;
+    filter: invert(100%);
+}
+
+.seta-avancar {
+    background-color: #000000;
+    width: 25px;
+    height: 50px;
+    border-radius: 50px 0px 0px 50px;
+    right: 0px;
+    position: absolute;
+    top: 44%;
+    z-index: 9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.seta-avancar img {
+    width: 20px;
+    right: -6px;
+    position: relative;
+    top: 32%;
+    z-index: 10;
+    filter: invert(100%);
+}
+
+[id^= "oferta"] {
+    display: none;
+}
+
+.oferta-1 {
+    z-index: 2;
+    opacity: 1;
+    display: flex;
+}
+
+*:target ~ .oferta-1 {
+    opacity: 0;
+}
+
+#oferta-1:target ~ .oferta-1 {
+    opacity: 1;
+}
+
+#oferta-2:target ~ .oferta-2,
+#oferta-3:target ~ .oferta-3,
+#oferta-4:target ~ .oferta-4,
+#oferta-5:target ~ .oferta-5 {
+    z-index: 3;
+    opacity: 1;
+}
+
     
     /*----------------------------------------------------------------------------*/
     /*                                  PRODUTOS                                  */
