@@ -674,24 +674,79 @@ span {
 }
 
 
-.teste-c {
+/*------------------------------------------------------------------------------*/
+/*-----------------------------------BENEFÍCIOS-------------------------------- */
+/*------------------------------------------------------------------------------*/
+
+
+.beneficios {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     background-color: #f5f5f5;
-    padding: 50px 20px 0px 20px;
+    padding: 0px 20px;
+    
 }
 
-.teste {
-    max-width: 1440px;
+.beneficios-c {
+    max-width: 1400px;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 20px 5px 5px;
     background-color: #fff;
-    border-left: 5px solid #0294F5;
-    padding: 5px 2px;
-    height: 80px;
     border-radius: 5px;
-    
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    gap: 20px;
+    border-left: 5px solid #F9C442;
+}
+
+.beneficios-entrega {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+    gap: 15px;
+}
+
+.beneficios-entrega img {
+    margin-left: 20px;
+}
+
+.beneficios-entrega p {
+    font-family: var(--font-3);
+}
+
+.beneficios-pagamento {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.beneficios-pagamento p {
+    font-family: var(--font-3);
+}
+
+.beneficios-frete {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.beneficios-frete p {
+    font-family: var(--font-3);
+}
+
+.beneficios-linha {
+    display: flex;
+    align-items: center;
+}
+
+.beneficios-linha img {
+    filter: invert(70%);
+    height: 40px;
 }
 
 
@@ -707,7 +762,6 @@ span {
     align-items: center;
     background-color: #F5F5F5;
     padding: 0px 20px;
-    display: none;
 }
 
 .slides-c {
@@ -904,14 +958,12 @@ span {
     max-width: 1400px;
     width: 100%;
     border: 1px solid #ccc;
-    /* background-color: #cccccc2e; */
     background-color: #fff;
     padding: 20px 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 5px;
-    /* box-shadow: #cccccc6b 0px 1px 20px 0px */
 }
 
 .aplicacoes-produtos-c img {
@@ -1050,7 +1102,8 @@ span {
     justify-content: space-between;
 }
 
-.produtos-card-topo p {
+.produtos-card-topo img {
+    width: 20px;
     margin: 10px 0px 0px 10px; 
 }
 
