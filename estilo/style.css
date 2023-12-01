@@ -486,17 +486,38 @@ span {
     padding: 0px 20px;
 }
 
+.carrossel-ofertas-title-c {
+    max-width: 1400px;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    z-index: 10;
+ }
+ 
+ .carrossel-ofertas-title h2{
+     font-family: var(--font);
+     padding: 20px 0px 10px 0px;
+     font-weight: 400;
+     font-size: 24px;
+ }
+ 
+ .carrossel-ofertas-title img {
+     width: 15px;
+     margin-left: 5px;
+ }
+
+
 .carrossel-ofertas-c {
     max-width: 1400px;
     width: 100%;
     max-height: 400px;
-    /* height: 1000px; */
+    height: 1000px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #f5f5f5;
     overflow: hidden;
 }
 
@@ -524,8 +545,8 @@ span {
 }
 
 .oferta .img-direita-1 {
-    width: 270px;
-    height: 270px;
+    width: 280px;
+    height: 280px;
     transform-style: preserve-3d;
     transform: rotateY(40deg) translateY(0px);
     position: relative;
@@ -534,8 +555,8 @@ span {
 }
 
 .oferta .img-direita-2 {
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     transform-style: preserve-3d;
     transform: rotateY(40deg) translateY(0px);
     position: relative;
@@ -544,8 +565,8 @@ span {
 }
 
 .img-direita-3 {
-    width: 190px;
-    height: 190px;
+    width: 220px;
+    height: 220px;
     transform-style: preserve-3d;
     transform: rotateY(40deg) translateY(0px);
     position: relative;
@@ -554,8 +575,8 @@ span {
 }
 
 .oferta .img-esquerda-1 {
-    width: 270px;
-    height: 270px;
+    width: 280px;
+    height: 280px;
     transform-style: preserve-3d;
     transform: rotateY(-40deg) translateY(0px);
     position: relative;
@@ -564,8 +585,8 @@ span {
 }
 
 .oferta .img-esquerda-2 {
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     transform-style: preserve-3d;
     transform: rotateY(-40deg) translateY(0px);
     position: relative;
@@ -574,8 +595,8 @@ span {
 }
 
 .img-esquerda-3 {
-    width: 190px;
-    height: 190px;
+    width: 220px;
+    height: 220px;
     transform-style: preserve-3d;
     transform: rotateY(-40deg) translateY(0px);
     position: relative;
