@@ -508,44 +508,57 @@
     padding: 0px 8px;
 }
 
+.beneficios-title-c {
+    max-width: 1400px;
+    width: 100%;
+ }
+ 
+ .beneficios-title h2{
+     font-family: var(--font);
+     padding: 20px 0px 20px 0px;
+     font-weight: 400;
+     font-size: 16px;
+ }
+ 
+ .beneficios-title img {
+     width: 10px;
+     margin-left: 5px;
+ }
 
 .beneficios-c {
     max-width: 1400px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #000000c6;
-    padding: 15px 10px;
-    gap: 12px;
+    padding: 20px;
+    gap: 50px;
     border-radius: 5px;
-    border-top: 30px solid #F9C442;
-    margin-top: 20px;
+    margin: 0px 0px 20px 0px;
 }
-
 
 .beneficios-card {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: #fff;
-    padding: 10px 5px;
-    max-width: 250px;
-    border-radius: 5px;
-    border-left: 6px solid #0294F5;
+    flex-direction: column; 
 }
 
 .beneficios-card img {
-    width: 30px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #0294F5;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #fff;
 }
 
 .beneficios-card h4 {
     font-family: var(--font-3);
     margin-top: 10px;
     text-align: center;
-    font-weight: 500;
-    font-size: 10px;
+    font-weight: 600;
+    font-size: 13px;
 }
 
     

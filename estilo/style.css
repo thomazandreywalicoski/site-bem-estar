@@ -759,6 +759,23 @@ span {
     padding: 20px 20px;
 }
 
+.beneficios-title-c {
+    max-width: 1400px;
+    width: 100%;
+}
+ 
+.beneficios-title h2{
+     font-family: var(--font);
+     padding: 40px 0px 20px 0px;
+     font-weight: 400;
+     font-size: 24px;
+}
+ 
+.beneficios-title img {
+     width: 15px;
+     margin-left: 5px;
+}
+
 
 .beneficios-c {
     max-width: 1400px;
@@ -766,12 +783,10 @@ span {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #000;
     padding: 20px;
     gap: 10px;
     border-radius: 5px;
-    border-top: 30px solid #F9C442;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
@@ -780,18 +795,22 @@ span {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fff;
+    
+    
+}
+
+.beneficios-card img {
+    border: 2px solid #0294F5;
     padding: 20px;
-    max-width: 250px;
-    border-radius: 5px;
-    border-left: 6px solid #0294F5;
+    border-radius: 50px;
+    background-color: #fff;
 }
 
 .beneficios-card h4 {
     font-family: var(--font-3);
     margin-top: 10px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
 }
 
