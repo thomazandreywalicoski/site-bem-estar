@@ -1170,7 +1170,8 @@ span {
 
 .produtos-card-topo img {
     width: 20px;
-    margin: 10px 0px 0px 10px; 
+    margin: 10px 0px 0px 10px;
+    filter: invert(60%);
 }
 
 .produtos-card-topo h2{
