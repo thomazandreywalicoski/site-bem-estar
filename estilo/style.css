@@ -68,7 +68,7 @@ li {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5px 20px;
+    padding: 20px 20px 5px 20px;
 }
 
 .menu-logo {
@@ -77,18 +77,17 @@ li {
 }
 
 .menu-logo-img {
-    width: 50px;
-    margin: 5px 5px 0px 0px;
+    width: 60px;
 }
 
-.menu-logo h2 {
+/* .menu-logo h2 {
     font-family: var(--font);
     font-size: 1.2rem;
     color: #fff;
     font-weight: 500;
     letter-spacing: .5px;
     cursor: pointer;
-}
+} */
 
 .nav {
     display: flex;
