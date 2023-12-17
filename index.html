@@ -401,29 +401,6 @@
 
 <!-- BENEFÍCIOS -->
 
-    <!-- <section class="beneficios">
-        <div class="beneficios-c">
-            <div class="beneficios-entrega">
-                <img src="imagens/beneficios/img-benefciios-entrega.png" alt="caixa entrega">
-                <p>Entregamos em sua casa</p>
-            </div> 
-            <div class="beneficios-linha">
-                <img src="imagens/beneficios/linha.png" alt="">
-            </div>
-            <div class="beneficios-pagamento">
-                <img src="imagens/beneficios/img-beneficios-pagamento.png" alt="cartão pagamento">
-                <p>Pagamento na hora da entrega</p>
-            </div> 
-            <div class="beneficios-linha">
-                <img src="imagens/beneficios/linha.png" alt="">
-            </div> 
-            <div class="beneficios-frete">
-                <img src="imagens/beneficios/img-beneficios-frete.png" alt="caminhão frete grátis">
-                <p>Frete grátis em qualquer compra</p>
-            </div>
-        </div> 
-    </section>  -->
-
     <section class="beneficios">
         <div class="beneficios-title-c">
             <div class="beneficios-title">
@@ -431,7 +408,7 @@
             </div>
         </div>
         <div class="beneficios-c">
-            <div class="beneficios-entrega-c">
+            <div class="beneficios-sobre" data-name="d-1">
                
                 <div class="beneficios-card">
                     <img src="imagens/beneficios/img-beneficios-entrega.png" alt="">
@@ -440,7 +417,7 @@
                 </div>
             </div> <!-- .beneficios-entrega-c -->
 
-            <div class="beneficios-pagamento-c">
+            <div class="beneficios-sobre" data-name="d-2">
                 
                 <div class="beneficios-card">
                     <img src="imagens/beneficios/img-beneficios-pagamento.png" alt="">
@@ -449,7 +426,7 @@
                 </div>
             </div> <!-- .beneficios-pagamento-c -->
 
-            <div class="beneficios-frete-c">
+            <div class="beneficios-sobre" data-name="d-3">
                 
                 <div class="beneficios-card">
                     <img src="imagens/beneficios/img-beneficios-frete.png" alt="">
@@ -460,6 +437,19 @@
 
         </div> <!-- beneficios-c -->
     </section> <!-- .beneficios -->
+
+
+    <div class="abrir-detalhes">
+        <div class="detalhes" data-target="d-1">
+            <img src="imagens/beneficios/btn-fechar.png" alt="botão fechar" class="detalhes-btn-fechar">
+            <img src="imagens/beneficios/img-beneficios-entrega.png" alt="imagem caixa entrega" class="detalhes-img">
+            <p>Entregamos qualquer produto diretamente no conforto de sua casa!</p>
+        </div>
+    </div>
+
+
+
+
 
 <!-- PRODUTOS -->
 
@@ -794,7 +784,7 @@
         <!-- INSPECIONAR CARD 1 -->
 
             <div class="inspecionar" data-target="c-1">
-                <button class="fechar"><img src="imagens/produtos/icone-btn-fechar.svg" alt="botão fechar"></button>
+                <button class="fechar"><img src="imagens/beneficios/btn-fechar.png" alt="botão fechar"></button>
 
                     <div class="inspecionar-img">
                         <img src="imagens/imagens-produtos/produto-63.png" alt="">
@@ -928,7 +918,8 @@
         </a>
     </div> <!-- .botao-contato-whatsapp -->
 
-<script src="script/script.js"></script>
+<script src="scripts/abrir-card-produtos.js"></script>
+<script src="scripts/abrir-detalhes-sobre.js"></script>
 
 </body>
 </html>
