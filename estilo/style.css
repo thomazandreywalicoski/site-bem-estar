@@ -1552,14 +1552,15 @@ span {
     background-color: #0294F5;
     border-radius: 50px;
     width: 100%;
-    padding: 10px 20px;
+    padding: 12px 20px;
     text-align: center;
     margin: 20px 0px; 
     gap: 10px;
 }
 
-.inspecionar-informacoes-btn {
+.inspecionar-informacoes-h3 {
     color: #fff;
+    font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
 }
